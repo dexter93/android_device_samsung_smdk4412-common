@@ -50,7 +50,7 @@
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">true</bool>
 
-    <!-- If this is true, the screen will fade off. -->
+    <!-- Our amoled doesn't animate well. -->
     <bool name="config_animateScreenLights">false</bool>
 
     <!-- Control whether being in the desk dock (and powered) always
@@ -58,6 +58,9 @@
          AC.  0 will not keep it on; or together 1 to stay on when plugged
          in to AC and 2 to stay on when plugged in to USB.  (So 3 for both.) -->
     <integer name="config_deskDockKeepsScreenOn">0</integer>
+
+    <!-- Device supports LED flashlight
+    <bool name="config_enableTorch">true</bool> -->
 
     <!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
         The N entries of this array define N + 1 zones as follows:
