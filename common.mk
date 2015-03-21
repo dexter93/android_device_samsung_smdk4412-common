@@ -179,9 +179,6 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
 
-# Media
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.media.use-awesome=true
     
 # USB-OTG
 PRODUCT_PROPERTY_OVERRIDES += \
